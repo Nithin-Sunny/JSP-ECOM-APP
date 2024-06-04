@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+body{
+	background-color: blue;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	font-family: sans-serif;
+	}
+ .one div,.two div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	
+}	
+.one,.two{
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	width: 100%;
+}
+.box{
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	width: 100%;
+	justify-content: space-around;
+}
+form{
+	
+	width: 90%;
+	height: 300px;
+	background-color: lime;
+	
+	
+}
+input,select{
+	width: 90%;
+	height: 30px;
+	border: none;
+	border-bottom: 2px solid orange;
+    color: black;
+    font-size: 14px;
+}
+
+label{
+	color: white;
+	margin-bottom: 10px;
+}
+button{
+	width: 100%;
+	height: 30px;
+	background-color: aqua;
+	border: none;
+	padding: 10px 20px;
+	margin: 4px 2px;
+	border-radius: 20px;
+	display:flex;
+	justify-content: center;
+    align-items: center;
+    text-indent: 3px;
+    cursor: pointer;
+}
+button:active{
+	background-color: maroon;
+}
+
+button a{
+	margin-bottom: 12px;
+	font-size: 15px;
+}
+
+.success{
+	color: green;
+	margin-top: 0px;
+	background-color: white;
+}
+.error{
+	color: red;
+	margin-top: 0px;
+	background-color: white;
+}
+.pid{
+	
+	background-color: yellow;
+	
+}

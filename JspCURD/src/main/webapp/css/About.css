@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+body{
+background-image:url('../img/pic2.jpg');
+background-size: cover;
+background-position: center;
+    display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+	margin: 0;	
+	font-family: sans-serif;
+	
+}
+h2,p{
+	width: 80%;
+	font-size: 25px;
+	text-shadow: 1px 1px 2px black;
+	color: white;
+	
+}

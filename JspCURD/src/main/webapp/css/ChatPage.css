@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+body{
+background-color: blue;
+display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+	margin: 0;	
+	font-family: sans-serif;
+}
+.out-cont{
+	background-color:orange;
+	width: 260px;
+	height: 350px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+	
+}
+.in-cont{
+	width: 230px;
+	height: 310px;
+	background-color: white;
+	display:flex;
+	flex-direction:column-reverse;
+
+}
+.table-con{
+	width: 230px;
+	background-color: white;
+	overflow:auto;
+	}
+table{
+	width: 100%;
+	
+}
+.user{
+	text-align: right;
+}
+
+h4{
+	color: white;
+}
+
+.sendbt{
+	background-color: lightgreen;
+}
+.clearbt{
+	background-color: lightcoral;
+}
+.input-btn{
+display: flex;
+justify-content: center;
+}
+
+input{
+	outline: none;
+	
+}

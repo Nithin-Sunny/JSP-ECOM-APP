@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+
+
+
+.footer{
+	height: 50px;
+	background-color:silver;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	
+}
