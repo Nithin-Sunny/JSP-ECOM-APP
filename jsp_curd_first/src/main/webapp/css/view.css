@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+body{
+	font-family:sans-serif;
+	background-color: teal;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+h1,h3{
+	margin-top: 50px;
+	color: white;
+}
